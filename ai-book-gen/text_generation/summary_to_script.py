@@ -4,7 +4,7 @@ from crewai import Agent, Task, Crew
 # Groq Configuration
 os.environ["OPENAI_API_BASE"] = 'https://api.groq.com/openai/v1'
 os.environ["OPENAI_MODEL_NAME"] = 'llama3-8b-8192'
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'YOUR_GROQ_API'
 
 from langchain.chat_models import ChatOpenAI
 
